@@ -16,7 +16,7 @@ echo icon.ico found!
 echo.
 
 echo Installing required packages...
-pip install pyinstaller requests openpyxl
+pip install -r requirements.txt
 echo.
 
 echo Building executable...
